@@ -1,0 +1,90 @@
+Token: 2,1 int  -> (2,1): int es de tipo 9
+
+Token: 2,5 p06  -> (2,5): p06 es de tipo 12
+
+Token: 2,8 (  -> (2,8): ( es de tipo 0
+
+Token: 2,9 )  -> (2,9): ) es de tipo 1
+
+Token: 2,11 {  -> (2,11): { es de tipo 4
+
+Token: 3,2 int  -> (3,2): int es de tipo 9
+
+Token: 3,6 a  -> (3,6): a es de tipo 12
+
+Token: 3,7 ;  -> (3,7): ; es de tipo 7
+
+Token: 5,2 a  -> (5,2): a es de tipo 12
+
+Token: 5,4 =  -> (5,4): = es de tipo 6
+
+Token: 5,6 2  -> (5,6): 2 es de tipo 13
+
+Token: 5,7 ;  -> (5,7): ; es de tipo 7
+
+Token: 6,2 a  -> (6,2): a es de tipo 12
+
+Token: 6,4 =  -> (6,4): = es de tipo 6
+
+Token: 6,6 a  -> (6,6): a es de tipo 12
+
+Token: 6,8 +  -> (6,8): + es de tipo 8
+
+Token: 6,10 2  -> (6,10): 2 es de tipo 13
+
+Token: 6,11 ;  -> (6,11): ; es de tipo 7
+
+Token: 7,2 if  -> (7,2): if es de tipo 11
+
+Token: 7,5 (  -> (7,5): ( es de tipo 0
+
+Token: 7,6 2  -> (7,6): 2 es de tipo 13
+
+Token: 7,7 )  -> (7,7): ) es de tipo 1
+
+Token: 8,3 if  -> (8,3): if es de tipo 11
+
+Token: 8,6 (  -> (8,6): ( es de tipo 0
+
+Token: 8,7 3  -> (8,7): 3 es de tipo 13
+
+Token: 8,8 +  -> (8,8): + es de tipo 8
+
+Token: 8,9 a  -> (8,9): a es de tipo 12
+
+Token: 8,10 -  -> (8,10): - es de tipo 8
+
+Token: 8,11 7.65  -> (8,11): 7.65 es de tipo 14
+
+Token: 8,15 )  -> (8,15): ) es de tipo 1
+
+Token: 9,3 {  -> (9,3): { es de tipo 4
+
+Token: 10,8 int  -> (10,8): int es de tipo 9
+
+Token: 10,12 b  -> (10,12): b es de tipo 12
+
+Token: 10,13 ;  -> (10,13): ; es de tipo 7
+
+Token: 12,8 b  -> (12,8): b es de tipo 12
+
+Token: 12,10 =  -> (12,10): = es de tipo 6
+
+Token: 12,12 a  -> (12,12): a es de tipo 12
+
+Token: 12,13 +  -> (12,13): + es de tipo 8
+
+Token: 12,14 3  -> (12,14): 3 es de tipo 13
+
+Token: 14,8 a  -> (14,8): a es de tipo 12
+
+Token: 14,10 =  -> (14,10): = es de tipo 6
+
+Token: 14,12 b  -> (14,12): b es de tipo 12
+
+Token: 14,13 ;  -> (14,13): ; es de tipo 7
+
+Token: 15,3 }  -> (15,3): } es de tipo 5
+
+Token: 16,1 }  -> (16,1): } es de tipo 5
+

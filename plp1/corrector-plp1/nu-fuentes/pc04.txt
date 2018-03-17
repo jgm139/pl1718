@@ -1,0 +1,4 @@
+float pc04()
+{
+  if ( 2+3 ;   /* error en ';' esperaba ')' */
+

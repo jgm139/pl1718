@@ -1,0 +1,11 @@
+
+int p04() {
+  {
+   {
+     int a;
+     
+     a = a-a+a+a-a+a+a-a+a-a;
+   }
+  }
+/* falta '}' */
+

@@ -1,0 +1,14 @@
+Token: 2,1 int  -> (2,1): int es de tipo 9
+
+Token: 2,5 p02  -> (2,5): p02 es de tipo 12
+
+Token: 2,9 (  -> (2,9): ( es de tipo 0
+
+Token: 2,10 )  -> (2,10): ) es de tipo 1
+
+Token: 2,12 {  -> (2,12): { es de tipo 4
+
+Token: 4,5 float  -> (4,5): float es de tipo 10
+
+Token: 4,11 9  -> (4,11): 9 es de tipo 13
+

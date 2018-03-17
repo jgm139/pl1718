@@ -1,0 +1,15 @@
+
+float ffff(int &a,float b,int c,float &d)
+{
+  int e;
+
+  a = 1+a-2+7-c;
+  if (b+d) int f;
+  if (b+d-b+d) {
+    /*  
+     * comentario de varias lineas
+     */
+    float g; 
+  }
+  d = b+a-c;
+}

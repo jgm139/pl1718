@@ -1,0 +1,2 @@
+int pc05 () {
+}  /* error en '}' esperaba identificador  'int' 'float' '{' 'if' */

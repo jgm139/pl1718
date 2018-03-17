@@ -1,0 +1,4 @@
+int pc06 (int &a {   /* error en '{' esperaba ')' ',' */
+
+{ 
+

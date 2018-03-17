@@ -1,0 +1,4 @@
+
+int p02 () {
+
+    float 9.aaa   /* error sintactico en '9', no lexico en '.' */
