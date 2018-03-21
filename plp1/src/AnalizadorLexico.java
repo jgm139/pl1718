@@ -36,6 +36,12 @@ public class AnalizadorLexico {
         boolean ok = false;
         boolean comment = false;
 
+        if(this.toToken == -1){
+            tk.tipo = Token.EOF;
+            tk.lexema = "fin de fichero";
+            return tk;
+        }
+
         try {
             this.toToken = this.toProcess.read();
 

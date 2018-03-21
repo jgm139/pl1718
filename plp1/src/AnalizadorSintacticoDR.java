@@ -13,7 +13,7 @@ public class AnalizadorSintacticoDR {
 
     public void comprobarFinFichero() {
         if(this.token.tipo != Token.EOF){
-            System.exit(-1);
+            errorSintaxis("fin de fichero");
         }else{
             if(this.flag){
                 System.out.println(this.rules.toString());
