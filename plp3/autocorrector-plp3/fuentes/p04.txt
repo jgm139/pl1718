@@ -1,0 +1,12 @@
+
+int p04() {
+  {
+   {
+     int a;
+     
+     a = a-a+a+a-a+a+a-a+a-a;
+   }
+   a = 7    /* Error semantico (9,4): 'a' no ha sido declarado */
+  }
+}
+

@@ -1,0 +1,41 @@
+int f(int a,float &b)  
+{                       
+  int i;                
+  int j;                
+                        
+  if (2.5+3+4+i+a)      
+  {                     
+    float i;            
+                        
+                        
+                        
+                        
+    {                   
+      int i;            
+                        
+      i = 7+2;          
+    }                   
+    float j;            
+                        
+    j = 1+2+3+4.0+i;    
+    {                   
+      float a;int b;    
+                        
+      a = 1+2;          
+    }                   
+    {                   
+      {                 
+        int j;
+ 
+        j = 1+2-3;      
+      }                 
+    }                   
+    if (1)              
+      int k;            
+    {                   
+      int e;            
+      float g;
+    }                   
+  }                     
+}                       
+

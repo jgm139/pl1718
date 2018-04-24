@@ -1,0 +1,22 @@
+
+float p05(int a,float b,int &c) {
+ {
+      int j;
+
+      {
+        float i;
+
+        j=8;
+        i=j+5.4;
+      }
+      if (2+3-4-9)
+      {
+        {
+          float i;
+          float j;
+
+          a=i+j;
+        }
+      }
+    }
+}
