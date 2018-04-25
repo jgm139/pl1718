@@ -1,0 +1,12 @@
+int pc06 (int &a,float &b,int c) 
+{ 
+  a=c;
+
+  b=7.4+a-c;
+
+
+  if (a+b)
+    float d;
+
+  d = 7+b;
+}

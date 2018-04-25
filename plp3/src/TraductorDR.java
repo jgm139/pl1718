@@ -164,7 +164,7 @@ public class TraductorDR {
             if(!ok){
                 errorAmbito();
             }
-            ath.trad = var.trad+":"+tipo.trad;
+            ath.trad = var.th+var.trad+":"+tipo.trad;
         }else{
             errorSintaxis("'int' 'float'");
         }
@@ -180,7 +180,8 @@ public class TraductorDR {
             pair(3);//&
             id = this.token.lexema;
             pair(12);//id
-            varth.trad = "var "+id;
+            varth.trad = id;
+            varth.th = "var ";
         }else if(this.token.tipo == Token.ID){
             String id = this.token.lexema;
             pair(12);//id
@@ -344,8 +345,6 @@ public class TraductorDR {
             int tipotype = Tipo().type;
             id = this.token.lexema;
 
-            pair(12);//id
-
             String tradsymb;
 
             if(this.ts.padre!=null){
@@ -360,6 +359,7 @@ public class TraductorDR {
                 errorAmbito();
             }
 
+            pair(12);//id
             pair(7);//;
 
             if(tipotype==Simbolo.ENTERO){

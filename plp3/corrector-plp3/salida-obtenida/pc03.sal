@@ -1,0 +1,15 @@
+function ffff(var a:integer;b:real;c:integer;var d:real):real;
+var		e:integer;
+	f:integer;
+	ffff_g:real;
+begin
+a := 1 +i a -i 2 +i 7 -i c;
+if b +r d then
+doNothing;
+if b +r d -r b +r d then
+begin
+doNothing
+end
+;
+d := b +r itor(a) -r itor(c)
+end

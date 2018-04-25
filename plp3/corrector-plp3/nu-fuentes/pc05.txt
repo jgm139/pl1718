@@ -1,0 +1,21 @@
+int pc05 () {
+
+
+  int i;int j;
+
+  if (i)
+   if (j)
+   {
+     float i; float j;
+
+     i=7.5;
+     j=1+i;
+   }
+
+  {
+    int k;
+
+    j=2+i;
+    k=1+i+j;
+  }
+} 

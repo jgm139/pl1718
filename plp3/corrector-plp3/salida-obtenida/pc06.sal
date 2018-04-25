@@ -1,0 +1,9 @@
+function pc06(var a:integer;var b:real;c:integer):integer;
+var		d:real;
+begin
+a := c;
+b := 7.4 +r itor(a) -r itor(c);
+if itor(a) +r b then
+doNothing;
+d := itor(7) +r b
+end

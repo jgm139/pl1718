@@ -1,0 +1,17 @@
+float pc04()
+{
+  if ( 2+3 )
+    int a;
+
+  if (3+2)
+  {
+    int b;
+  }
+
+  {
+    float a;
+    int b;
+    float a;  // error 'a' repetido
+  }  
+}
+
