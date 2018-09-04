@@ -1,0 +1,7 @@
+algoritmo : j01
+
+ escribe (2*7.5-8.32+10.345 && cierto)-2
+
+// Error 14 (3:29) la expresion a la izquierda de '&&' debe ser de tipo logico
+
+falgoritmo

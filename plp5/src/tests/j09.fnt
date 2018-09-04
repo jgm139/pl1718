@@ -1,0 +1,7 @@
+algoritmo : j09
+var
+  tabla 10 de real : e;
+fvar
+  e[1] := 2.0;
+  escribe e
+falgoritmo

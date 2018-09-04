@@ -1,0 +1,6 @@
+algoritmo : j06
+var logico : a;
+fvar
+ lee a;
+ escribe a
+falgoritmo

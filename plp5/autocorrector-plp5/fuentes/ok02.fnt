@@ -1,0 +1,11 @@
+algoritmo : ok02
+  var
+    entero : a,b,c;
+    real : d,e;
+    logico : aEsCero,f;
+  fvar
+
+  e := 6-2-2-1-0.5;
+  escribe e           // La salida es "0.5"
+
+falgoritmo

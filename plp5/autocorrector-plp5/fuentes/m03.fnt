@@ -1,0 +1,10 @@
+algoritmo : m03
+var
+  entero : a,b,c;
+fvar
+
+  a := 3 * 4 - 5 * 9 / (2-1.2)
+
+// Error 12 (6:5) la expresion a la derecha de ':=' debe ser de tipo entero.
+
+falgoritmo

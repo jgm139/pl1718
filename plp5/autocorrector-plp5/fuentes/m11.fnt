@@ -1,0 +1,7 @@
+algoritmo : m11
+var
+   tabla 5 de tabla 6 de tabla 7 de entero : a,b,c;
+   entero : i,j;
+fvar
+   a[2] := 7   // Error 7 (6:7) faltan indices
+falgoritmo

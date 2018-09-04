@@ -1,0 +1,12 @@
+algoritmo : m07
+var
+  entero : a,b;
+  real : c,d,e;
+  logico : tablademientrassi;
+fvar
+
+ c := a>=b*3
+
+// Error 13 (8:4) la expresion a la derecha de ':=' debe ser de tipo real o entero
+
+falgoritmo

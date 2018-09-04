@@ -1,0 +1,8 @@
+algoritmo : j02
+  var
+    entero : e;
+  fvar
+
+  e := 6
+
+falgoritmo

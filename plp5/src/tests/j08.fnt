@@ -1,0 +1,7 @@
+algoritmo : j08
+var tabla 10 de logico : a;
+fvar
+ lee a[0];
+ lee a[1];
+ escribe a[0]
+falgoritmo

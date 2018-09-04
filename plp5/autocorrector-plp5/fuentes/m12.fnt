@@ -1,0 +1,8 @@
+algoritmo : m12
+var
+   tabla 5 de tabla 6 de tabla 7 de entero : a,b,c;
+   entero : i,j;
+fvar
+   i := a[104][3242][112][45]  
+// Error 8 (6:26) sobran indices
+falgoritmo

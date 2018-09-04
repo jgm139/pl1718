@@ -1,0 +1,24 @@
+algoritmo : ok04
+var real: fact,sumafact;
+    entero : i,j,k;
+fvar
+lee k; // La entrada es "4"
+sumafact := 0.0;
+i := k;
+mientras i>1 hacer
+  blq
+   j := i;
+   fact := 1;
+   mientras j>1 hacer
+    blq
+      si fact >= 1 entonces
+         fact := fact * j
+      sino
+         fact := 0;
+      j := j-1
+   fblq;
+   sumafact := sumafact + fact;
+   i := i -1
+  fblq;
+escribe sumafact // Debe salir "32.000"
+falgoritmo

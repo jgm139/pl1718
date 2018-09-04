@@ -1,0 +1,7 @@
+algoritmo : m06
+
+   si 2*4.5-7 entonces escribe 34567.12345678
+
+// Error 10 (3:4) la expresion debe ser de tipo logico
+
+falgoritmo

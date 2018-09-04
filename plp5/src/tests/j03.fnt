@@ -1,0 +1,8 @@
+algoritmo : j03
+  var
+    tabla 20 de entero : v;
+  fvar
+
+  escribe v[23]
+
+falgoritmo

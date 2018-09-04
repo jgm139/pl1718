@@ -1,0 +1,18 @@
+function pc05:integer;
+var	i:integer;
+j:integer;
+pc05_i:real;
+pc05_j:real;
+pc05_k:integer;
+begin
+if i then
+if j then
+begin
+pc05_i := 7.5;
+pc05_j := itor(1) +r pc05_i
+end;
+begin
+j := 2 +i i;
+pc05_k := 1 +i i +i j
+end
+end

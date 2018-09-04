@@ -1,0 +1,27 @@
+algoritmo : ok01
+  var
+    entero : a,b,c;
+    real : d;
+    logico : aEsCero,f;
+  fvar
+
+  lee a;             // La entrada es "4"
+  b := 3*4/2+a;
+  si b <> 2*(7/2) entonces
+   blq
+    si b < 6 entonces
+     blq
+      c := a*(-1);   // le cambiamos el signo a la a ...
+      b := 6-2-2+2*4
+     fblq;
+    aEsCero := 1 = 0
+   fblq
+  sino
+    aEsCero := cierto;
+
+  si !aEsCero && b = 10 entonces  // ha habido cambio de signo
+     aEsCero := 5>4;
+
+  escribe aEsCero       // La salida es "c"
+
+falgoritmo

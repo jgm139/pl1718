@@ -1,0 +1,10 @@
+algoritmo : m02
+
+var
+   real : a,b,c,a,f,            // Error 4 (4:17) variable 'a' ya declarada.
+                    g,a,a;
+fvar
+
+a := 2.3
+
+falgorismo

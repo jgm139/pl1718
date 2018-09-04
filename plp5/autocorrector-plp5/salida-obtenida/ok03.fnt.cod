@@ -1,0 +1,71 @@
+
+mov #0 16000
+rdr 16001
+mov 16000 A
+mov 16001 @A
+wrl
+
+mov #0 16000
+mov #87 16001
+mov 16000 A
+muli #1
+addi #2
+mov 16001 @A
+
+mov #0 16000
+mov #78 16001
+mov 16000 A
+muli #1
+addi #3
+mov 16001 @A
+
+mov #0 16000
+mov $0.1 16001
+mov 16000 A
+muli #1
+addi #1
+mov 16001 @A
+
+mov #0 16000
+mov 16000 A
+muli #1
+addi #0
+mov @A 16001
+mov #0 16002
+mov 16002 A
+muli #1
+addi #3
+mov @A 16003
+mov 16003 A
+itor
+mov A16005
+mov 16001 A
+addr 16005
+mov A 16004
+mov #0 16006
+mov 16006 A
+muli #1
+addi #2
+mov @A 16007
+mov #0 16008
+mov 16008 A
+muli #1
+addi #1
+mov @A 16009
+mov 16007 A
+itor
+addr 16009
+mov A16010
+mov 16004 A
+eqlr 16010
+mov A 16011
+mov 16011 A
+jz L0
+mov #99 16011
+jmp L1
+L0
+mov #102 16011
+L1
+wrc 16011
+wrl
+halt

@@ -1,0 +1,8 @@
+algoritmo : j04
+  var
+    real : e;
+  fvar
+
+  e := 6-2-2-1-0.5
+
+falgoritmo

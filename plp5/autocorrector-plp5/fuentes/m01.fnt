@@ -1,0 +1,9 @@
+algoritmo : m01
+
+var
+    entero : a1b;
+fvar
+
+  b := 7       //  Error 5 (7:3) variable 'b' no declarada
+
+falgoritmo

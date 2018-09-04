@@ -1,0 +1,34 @@
+function f(a:integer;var b:real):integer;
+var	i:integer;
+j:integer;
+f_i:real;
+f__i:integer;
+f_j:real;
+f__a:real;
+f__b:integer;
+f___j:integer;
+f_k:integer;
+f__e:integer;
+f__g:real;
+begin
+if 2.5 +r itor(3)  +r itor(4)  +r itor(i)  +r itor(a)  then
+begin
+begin
+f__i := 7 +i 2
+end;
+f_j := itor(1 +i 2 +i 3) +r 4.0 +r f_i;
+begin
+f__a := itor(1 +i 2) 
+end;
+begin
+begin
+f___j := 1 +i 2 -i 3
+end
+end;
+if 1 then
+doNothing;
+begin
+doNothing
+end
+end
+end

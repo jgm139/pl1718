@@ -1,0 +1,5 @@
+algoritmo : m10
+var entero ; a,b,c;  // Error 2 (2:12) en ';'
+fvar
+ escribe 1
+falgoritmo

@@ -1,0 +1,33 @@
+
+mov #0 16000
+mov #6 16001
+mov #2 16002
+mov 16001 A
+subi 16002
+mov A 16003
+mov #2 16004
+mov 16003 A
+subi 16004
+mov A 16005
+mov #1 16006
+mov 16005 A
+subi 16006
+mov A 16007
+mov $0.5 16008
+mov 16007 A
+itor
+subr 16008
+mov A16009
+mov 16000 A
+muli #1
+addi #4
+mov 16009 @A
+
+mov #0 16000
+mov 16000 A
+muli #1
+addi #4
+mov @A 16001
+wrr 16001
+wrl
+halt

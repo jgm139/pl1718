@@ -1,0 +1,11 @@
+
+float p03 (int a,float &b) {
+
+  a = a/*comentario*/+/*otro comentario*/1;
+
+  int j;
+
+  j = i+7+2-5;
+  b = 123.45 + 1.233444 - 12345.6;
+ 
+}

@@ -1,0 +1,7 @@
+algoritmo : m05
+
+ escribe (cierto && 2*7.5-8.32+10.345)-2
+
+// Error 11 (3:18) la expresion a la derecha de '&&' debe ser de tipo logico
+
+falgoritmo

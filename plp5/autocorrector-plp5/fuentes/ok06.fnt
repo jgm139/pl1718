@@ -1,0 +1,35 @@
+algoritmo : ok06
+var
+  tabla 10 de tabla 10 de tabla 15 de entero: y;
+  tabla 15 de tabla 10 de entero : vector;
+  tabla 20 de entero : v;
+  entero : i,j,k;
+fvar
+  i:=0;
+  mientras i<20 hacer
+   blq
+    v[i]:=i;
+    i:=i+1
+   fblq;
+  i:=0; 
+  mientras i<10 hacer 
+   blq
+    j:=0;
+    mientras j<10 hacer 
+     blq
+      k:=0;
+      mientras k<15 hacer 
+       blq
+        y[i][j][k] := i+j+k;
+        k:=k+1
+       fblq;
+      j:=j+1
+     fblq;
+    i:=i+1
+   fblq;
+  vector[y[y[0][1][2]][y[2][0][0]][1]][0] := i;
+  vector[v[0]][y[v[1]][y[v[1]][v[1]][v[2]]][1]] := j;
+  k := vector[y[y[0][1][2]][y[2][0][0]][1]][0] +
+      vector[v[0]][y[v[1]][y[v[1]][v[1]][v[2]]][1]];
+  escribe k  // Debe salir "20"
+falgoritmo

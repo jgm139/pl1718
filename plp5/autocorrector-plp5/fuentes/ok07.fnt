@@ -1,0 +1,42 @@
+algoritmo : ok07
+var
+   entero : i,j,k;
+   real : r;
+   tabla 2 de tabla 3 de tabla 4 de real : a;
+fvar
+   i := 0;
+   mientras i<2 hacer
+    blq
+      j:=0;
+      mientras j<3 hacer
+       blq
+        k:=0;
+        mientras k<4 hacer
+         blq
+           a[i][j][k] := i*100+j*10+k;
+           k:=k+1
+         fblq;
+        j:=j+1
+       fblq;
+      i := i+1
+    fblq;
+ 
+   r := 0.0;
+   k:=1;
+   mientras k<=4 hacer
+    blq
+     j:=1;
+     mientras j<4 hacer
+      blq
+       i:=2;
+       mientras i<4 hacer
+        blq
+         r := r+a[i-2][j-1][k-1];
+         i:=i+1
+        fblq;
+       j:=j+1
+      fblq;
+     k:=k+1
+    fblq;
+   escribe r  // Debe salir "1476.000"
+falgoritmo

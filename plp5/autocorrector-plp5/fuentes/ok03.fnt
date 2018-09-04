@@ -1,0 +1,10 @@
+algoritmo : ok03
+var real: a,b;
+    entero: i,j;
+fvar
+ lee a;   // La entrada es "9.1" 
+ i := 87;
+ j := 78;
+ b := 0.1;
+ escribe a+j = i+b  // La salida debe ser "c" (cierto)
+falgoritmo

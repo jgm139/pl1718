@@ -1,0 +1,9 @@
+algoritmo : j05
+    var
+        logico : e;
+    fvar
+ 
+ e := cierto;
+ escribe e
+
+falgoritmo

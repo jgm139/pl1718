@@ -1,0 +1,169 @@
+
+mov #0 16000
+rdi 16001
+mov 16000 A
+mov 16001 @A
+wrl
+
+mov #0 16000
+mov #3 16001
+mov #4 16002
+mov 16001 A
+muli 16002
+mov A 16003
+mov #2 16004
+mov 16003 A
+divi 16004
+mov A 16005
+mov #0 16006
+mov 16006 A
+muli #1
+addi #0
+mov @A 16007
+mov 16005 A
+addi 16007
+mov A 16008
+mov 16000 A
+muli #1
+addi #1
+mov 16008 @A
+
+mov #0 16000
+mov 16000 A
+muli #1
+addi #1
+mov @A 16001
+mov #2 16002
+mov #7 16003
+mov #2 16004
+mov 16003 A
+divi 16004
+mov A 16005
+mov 16002 A
+muli 16005
+mov A 16006
+mov 16001 A
+neqi 16006
+mov A 16007
+mov 16007 A
+jz L1
+mov #0 16008
+mov 16008 A
+muli #1
+addi #1
+mov @A 16009
+mov #6 16010
+mov 16009 A
+lssi 16010
+mov A 16011
+mov 16011 A
+jz L0
+mov #0 16012
+mov #0 16013
+mov 16013 A
+muli #1
+addi #0
+mov @A 16014
+mov #1 16015
+mov 16014 A
+muli 16015
+mov A 16016
+mov 16012 A
+muli #1
+addi #2
+mov 16016 @A
+
+mov #0 16000
+mov #6 16001
+mov #2 16002
+mov 16001 A
+subi 16002
+mov A 16003
+mov #2 16004
+mov 16003 A
+subi 16004
+mov A 16005
+mov #2 16006
+mov #4 16007
+mov 16006 A
+muli 16007
+mov A 16008
+mov 16005 A
+addi 16008
+mov A 16009
+mov 16000 A
+muli #1
+addi #1
+mov 16009 @A
+L0
+
+mov #0 16000
+mov #1 16001
+mov #0 16002
+mov 16001 A
+eqli 16002
+mov A 16003
+mov 16000 A
+muli #1
+addi #4
+mov 16003 @A
+jmp L2
+L1
+mov #0 16000
+mov #1 16001
+mov 16000 A
+muli #1
+addi #4
+mov 16001 @A
+
+L2
+
+mov #0 16000
+mov 16000 A
+muli #1
+addi #4
+mov @A 16001
+mov 16001 A
+noti
+mov A 16002
+mov #0 16003
+mov 16003 A
+muli #1
+addi #1
+mov @A 16004
+mov #10 16005
+mov 16004 A
+eqli 16005
+mov A 16006
+mov 16002 A
+andi 16006
+mov A 16007
+mov 16007 A
+jz L3
+mov #0 16008
+mov #5 16009
+mov #4 16010
+mov 16009 A
+gtri 16010
+mov A 16011
+mov 16008 A
+muli #1
+addi #4
+mov 16011 @A
+L3
+
+mov #0 16000
+mov 16000 A
+muli #1
+addi #4
+mov @A 16001
+mov 16001 A
+jz L4
+mov #99 16001
+jmp L5
+L4
+mov #102 16001
+L5
+wrc 16001
+wrl
+halt

@@ -1,0 +1,31 @@
+
+mov #0 16000
+mov #0 16001
+mov 16001 A
+noti
+mov A 16002
+mov 16000 A
+andi 16002
+mov A 16003
+mov #1 16004
+mov #1 16005
+mov 16004 A
+andi 16005
+mov A 16006
+mov #1 16007
+mov 16006 A
+andi 16007
+mov A 16008
+mov 16003 A
+ori 16008
+mov A 16009
+mov 16009 A
+jz L0
+mov #99 16009
+jmp L1
+L0
+mov #102 16009
+L1
+wrc 16009
+wrl
+halt

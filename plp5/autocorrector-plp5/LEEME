@@ -1,0 +1,35 @@
+
+Procesamiento de Lenguajes - Ficheros para la autocorrección de la práctica 5
+-----------------------------------------------------------------------------
+
+ Este fichero .tgz sirve para comprobar el correcto funcionamiento de la
+práctica 5 con algunos programas de prueba.
+
+ El contenido de este fichero .tgz es el siguiente:
+
+  LEEME                  -  este fichero que estás leyendo
+  fuentes                -  directorio con algunos programas fuente (.fnt).
+  autocorrector-plp5.sh  -  shell script para probar la práctica con los
+                           programas fuente del directorio "fuentes". 
+                           Al ser un fichero de texto, se puede leer y modificar
+                           para añadir más programas de prueba (ver los comentarios
+                           en el script). Este script prueba tanto programas
+                           correctos (ejecutando el código generado con el 
+                           intérprete y comprobando que la salida es correcta) como
+                           incorrectos, en cuyo caso *no* se ejecuta el código 
+                           generado pero sí se comprueba que el mensaje es correcto. 
+  m2r.c                  -  fuente en C del intérprete del lenguaje m2r, que será
+                           compilado por el script de corrección.
+
+
+ Para comprobar tu práctica con este autocorrector debes poner los ficheros
+comun.h, plp5.l y plp5.y  en el directorio en el que está este fichero
+LEEME.
+
+
+NOTA IMPORTANTE: Los programas fuente publicados son solamente una pequeña
+parte de los que se utilizarán para probar la práctica, y es posible (y muy
+probable) que no tengan en cuenta todos los casos que pueden aparecer, por lo 
+que es imprescindible probar muchos más programas de prueba que los que 
+se han publicado.
+
